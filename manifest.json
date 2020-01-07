@@ -272,9 +272,9 @@
         }
     ],
     "tests": {
-      "excludedPackages": [ "de.hybris.*", "com.hybris.*" ]
+      "excludedPackages": [ "*" ]
     },
     "webTests": {
-      "excludedPackages": [ "de.hybris.*", "com.hybris.*" ]
+      "excludedPackages": [ "*" ]
     } 
 }
