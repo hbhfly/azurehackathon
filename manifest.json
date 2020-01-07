@@ -1,5 +1,5 @@
 {
-    "commerceSuiteVersion":"1811.9",
+    "commerceSuiteVersion":"1811.4",
     "extensions": [
     	"adaptivesearchsolr",
         "adaptivesearchbackoffice",
@@ -265,5 +265,11 @@
                 }
             ]
         }
-    ]
+    ],
+    "tests": {
+      "excludedPackages": [ "de.hybris.*", "com.hybris.*" ]
+    },
+    "webTests": {
+      "excludedPackages": [ "de.hybris.*", "com.hybris.*" ]
+    } 
 }
