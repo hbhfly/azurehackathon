@@ -270,11 +270,5 @@
                 }
             ]
         }
-    ],
-    "tests": {
-      "excludedPackages": [ "*" ]
-    },
-    "webTests": {
-      "excludedPackages": [ "*" ]
-    } 
+    ]
 }
